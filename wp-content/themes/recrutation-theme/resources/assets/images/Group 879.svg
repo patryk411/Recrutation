@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91.35" height="93.353" viewBox="0 0 91.35 93.353">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="91.35" height="93.353" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_49" data-name="Rectangle 49" width="74.487" height="74.487" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_61" data-name="Path 61" d="M2388.832,622.075a37.243,37.243,0,1,1-37.244-37.243,37.244,37.244,0,0,1,37.244,37.243" transform="translate(-2314.345 -584.832)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(1, 0, 0, -1, 0, 15.377)" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.061" stop-color="#161616"/>
+      <stop offset="0.263" stop-color="#5c5c5c"/>
+      <stop offset="0.454" stop-color="#969696"/>
+      <stop offset="0.629" stop-color="#c3c3c3"/>
+      <stop offset="0.783" stop-color="#e4e4e4"/>
+      <stop offset="0.912" stop-color="#f7f7f7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_51" data-name="Rectangle 51" width="90.692" height="90.692" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_62" data-name="Path 62" d="M2401.971,591.544a45.345,45.345,0,1,1-45.345-45.345,45.345,45.345,0,0,1,45.345,45.345" transform="translate(-2311.281 -546.199)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(1, 0, 0, -1, 0, 13.042)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9c18a3"/>
+      <stop offset="0.137" stop-color="#9c18a3"/>
+      <stop offset="0.279" stop-color="#88148e"/>
+      <stop offset="0.572" stop-color="#540c58"/>
+      <stop offset="0.989" stop-color="#020002"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="-18.256" y1="9.298" x2="-18.248" y2="9.298" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee55b2"/>
+      <stop offset="0.677" stop-color="#af4dd0"/>
+      <stop offset="1" stop-color="#974bdc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-12.289" y1="6.499" x2="-12.284" y2="6.499" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_879" data-name="Group 879" opacity="0.65">
+    <g id="Group_111" data-name="Group 111" transform="translate(0 0)">
+      <g id="Group_110" data-name="Group 110" clip-path="url(#clip-path)">
+        <g id="Group_104" data-name="Group 104" transform="translate(1.81 18.866)" opacity="0.45" style="mix-blend-mode: multiply;isolation: isolate">
+          <g id="Group_103" data-name="Group 103">
+            <g id="Group_102" data-name="Group 102" clip-path="url(#clip-path-2)">
+              <g id="Group_101" data-name="Group 101" transform="translate(0.002 0.001)">
+                <g id="Group_100" data-name="Group 100" clip-path="url(#clip-path-3)">
+                  <rect id="Rectangle_48" data-name="Rectangle 48" width="74.486" height="74.486" transform="translate(0 0)" fill="url(#radial-gradient)"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Group_109" data-name="Group 109" transform="translate(0.329 0.174)" opacity="0.54" style="mix-blend-mode: color-dodge;isolation: isolate">
+          <g id="Group_108" data-name="Group 108">
+            <g id="Group_107" data-name="Group 107" clip-path="url(#clip-path-4)">
+              <g id="Group_106" data-name="Group 106" transform="translate(0 -0.001)">
+                <g id="Group_105" data-name="Group 105" clip-path="url(#clip-path-5)">
+                  <rect id="Rectangle_50" data-name="Rectangle 50" width="90.69" height="90.691" fill="url(#radial-gradient-2)"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <path id="Path_63" data-name="Path 63" d="M2402.688,607.146h-.242a30.539,30.539,0,1,0-30.539,30.539,30.578,30.578,0,0,0,30.539-30.539h.484a31.023,31.023,0,1,1-31.023-31.022,31.023,31.023,0,0,1,31.023,31.022Z" transform="translate(-2326.231 -561.471)" fill="url(#linear-gradient)"/>
+        <path id="Path_64" data-name="Path 64" d="M2401.481,591.707H2401a44.529,44.529,0,1,0-44.529,44.529A44.586,44.586,0,0,0,2401,591.707h.968a45.5,45.5,0,1,1-45.5-45.5,45.5,45.5,0,0,1,45.5,45.5Z" transform="translate(-2310.792 -546.031)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.053" height="47.053" viewBox="0 0 47.053 47.053">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_71" data-name="Rectangle 71" width="47.053" height="47.053" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_77" data-name="Path 77" d="M2388.053,907.726a23.527,23.527,0,1,1-23.527-23.527,23.527,23.527,0,0,1,23.527,23.527" transform="translate(-2341 -884.199)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-22.965" y1="8.86" x2="-22.955" y2="8.86" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cc69ff"/>
+      <stop offset="0.204" stop-color="#aa4bf8"/>
+      <stop offset="0.453" stop-color="#882cf1"/>
+      <stop offset="0.587" stop-color="#7b21ef"/>
+      <stop offset="0.994" stop-color="#4104d0"/>
+      <stop offset="1" stop-color="#4104d0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_878" data-name="Group 878" opacity="0.35">
+    <g id="Group_156" data-name="Group 156" transform="translate(0)">
+      <g id="Group_155" data-name="Group 155" clip-path="url(#clip-path)">
+        <g id="Group_154" data-name="Group 154" transform="translate(0 0)">
+          <g id="Group_153" data-name="Group 153" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_70" data-name="Rectangle 70" width="64.44" height="64.44" transform="matrix(0.508, -0.861, 0.861, 0.508, -20.599, 34.893)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

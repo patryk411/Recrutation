@@ -1,0 +1,120 @@
+.popup {
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 770px;
+    height: 608px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #0000000F;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 1000;
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+
+        .popup-closer {
+            position: absolute;
+            right: -18px;
+            top: -18px;
+            width: 36px;
+            height: 36px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+            border-radius: 50%;
+            outline: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            i {
+                color: #6366F1;
+                transform: matrix(0, -1, 1, 0, 0, 0);
+                font-size: 1.6em;
+            }
+        }
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            &__top {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                &--text {
+                    text-align: left;
+                    font-size: 1.9em;
+                    font-weight: 500;
+                    letter-spacing: 0px;
+                    color: #2F3058;
+                    opacity: 1;
+                }
+
+                &--span {
+                    text-align: left;
+                    font: normal normal 900 44px/49px Poppins;
+                    letter-spacing: 0px;
+                    color: #6366F1;
+                    opacity: 1;
+                }
+            }
+
+            &__lorem {
+                text-align: center;
+                font-size: 2em;
+                font-family: $hind;
+                letter-spacing: 0px;
+                color: #2F3058;
+                padding: 0 15px;
+                opacity: 1;
+            }
+
+            .form-group {
+                display: flex;
+                flex-direction: row;
+                align-items: start;
+                justify-content: center;
+                input {
+                    background-color: #f7f7ff;
+                    box-shadow: 0px 3px 16px #0000000F;
+                    border: none;
+                    border-radius: 10px;
+                    width: 287px;
+                    height: 50px;
+                    margin-bottom: 70px;
+                    font-size: 1.6em;
+                }
+
+                input::placeholder {
+                    text-align: left;
+                    font: normal normal normal 16px/31px Poppins;
+                    letter-spacing: 0.35px;
+                    padding-left: 10px;
+                    color: #2F3058;
+                    opacity: 0.5;
+                }
+
+                i {
+                    font-size: 1.6em;
+                    position: absolute;
+                    right:65px;
+                    bottom: 143px;
+                }
+            }
+        }
+
+        &__right {
+            
+        }
+    }
+}
+
+   

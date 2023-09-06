@@ -1,0 +1,95 @@
+.content-info {
+    opacity: 1;
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+
+    &__content {
+        margin: 50px 0;
+        
+        &__box {
+            &--brand {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: 1px dashed #707070;
+                border-radius: 29px;
+                opacity: 1;
+                width: 176px;
+                height: 62px;
+                text-align: left;
+                font: normal normal normal 23px/35px Poppins;
+                letter-spacing: 0.46px;
+                color: #2F3058;
+                margin-bottom: 40px;
+            }
+
+            &--text {
+                text-align: left;
+                font: normal normal normal 16px/29px Poppins;
+                letter-spacing: 0.35px;
+                color: #2F3058;
+                opacity: 0.55;
+            }
+
+            &--heading {
+                text-align: left;
+                font: normal normal 600 20px/39px Poppins;
+                letter-spacing: 0.4px;
+                color: #2F3058;
+                text-transform: uppercase;
+                opacity: 1;
+            }
+
+            &__contact {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .tel-num {
+                    font: normal normal normal 16px/29px Poppins;
+                    color: #2F3058;
+                    margin-bottom: 0;
+                    margin-left: 10px;
+                }
+
+                .mail {
+                    font: normal normal normal 16px/29px Poppins;
+                    letter-spacing: 0.35px;
+                    color: #2F3058;
+                    margin-left: 10px;
+                }
+            }
+
+            &--link {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                font: normal normal normal 16px/23px Poppins;
+                letter-spacing: 0.35px;
+                color: #2F3058;
+                opacity: 0.55;
+                margin-bottom: 20px;
+            }
+            
+            a {
+                text-decoration: none;
+                cursor: pointer;
+                transition: color .5s;
+            }
+
+            a:hover {
+                color:#000;
+            }
+
+            &__icon-box {
+                margin-top: 30px;
+                svg {
+                    color: #2e2d57;
+                    margin-right: 30px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

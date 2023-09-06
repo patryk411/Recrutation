@@ -1,0 +1,200 @@
+.header {
+  opacity: 1;
+ padding-left: 260px;
+
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+    &__left-side {
+      margin-top: 100px;
+
+      &--heading {
+        font-size: 5.2em;
+        text-align: left;
+        font: normal normal 900 52px/74px Poppins;
+        letter-spacing: 1.04px;
+        color: #2F3058;
+
+        .header-span {
+          color: #6366F1;
+        }
+      }
+
+      &--text {
+        margin-right: 70px;
+        margin-top: 50px;
+        text-align: left;
+        font: normal normal normal 21px/31px Hind;
+        letter-spacing: 0.46px;
+        color: #535353;
+        opacity: 1;
+      }
+
+      &__btns {
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+        // flex-direction: row;
+        margin-top: 50px;
+
+        .btn-header-one {
+          background: #6366F1 0% 0% no-repeat padding-box;
+          box-shadow: 0px 3px 6px #00000029;
+          border-radius: 27px;
+          opacity: 1;
+          width: 189px;
+          height: 54px;
+          margin-right: 35px;
+          
+
+          .btn-first {
+            text-align: left;
+            font-size: 1.9em;
+            letter-spacing: 0.47px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            opacity: 1;
+          }
+        }
+
+        .btn-header-two {
+          height: 54px;
+          width: 298px;
+          border: none;
+          background: rgba(99, 102, 241, .2) 0% 0% no-repeat padding-box;
+          box-shadow: 0px 3px 6px #00000029;
+          border-radius: 27px;
+          // opacity: 0.2;
+          
+          .btn-second {
+            text-align: left;
+            font-size: 1.6em;
+            letter-spacing: 0.32px;
+            color: #6366F1;
+
+            i {
+              margin-left: 20px;
+              color: #535353;
+            }
+          }
+
+
+          .btn-second:hover {
+            color: #6366F1;
+          }
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+      }
+    }
+
+    &__right-side {
+      // position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      &__box-one {
+        position: absolute;
+        z-index: 1;
+        top: 70px;
+        left: 100px;
+        width: 179px;
+        height: 179px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 12px #2F30581F;
+        border-radius: 10px;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        &__num {
+          width: 100px;
+          height: 100px;
+          /* UI Properties */
+          background: #0CCE6B21 0% 0% no-repeat padding-box;
+          border: 4px solid #0CCE6B;
+          opacity: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+
+          &--text {
+            height: 47px;
+            text-align: left;
+            font-size: 3.3em;
+            letter-spacing: 0.82px;
+            color: #0CCE6B;
+            opacity: 1;
+            width: 56px;
+            margin-bottom: 0;
+          }
+        }
+
+        &__text {
+          text-align: left;
+          font-size: 1.4em;
+          letter-spacing: 0px;
+          color: #2F3058;
+          opacity: 1;
+          margin-bottom: 0;
+        }
+      }
+
+      &__box-two {
+        position: absolute;
+        z-index: 1;
+        bottom: 140px;
+        right: 60px;
+        width: 140px;
+        height: 134px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 12px #2F30581F;
+        border-radius: 10px;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        &--text {
+          width: 92px;
+          /* UI Properties */
+          font-size: 1.4em;
+          letter-spacing: 0px;
+          color: #2F3058;
+          opacity: 1;
+          height: 20px;
+        }
+
+        &--per {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 68px;
+          height: 28px;
+          font-weight: bold;
+          font-size: 1.4em;
+          letter-spacing: 0px;
+          color: #2F3058;
+          opacity: 1;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

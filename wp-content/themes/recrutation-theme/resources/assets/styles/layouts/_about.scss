@@ -1,0 +1,159 @@
+&__about {
+    background: #fff 0% 0% no-repeat padding-box;
+    // opacity: 0.22;
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0px 50px 100px;
+
+        &__imgs-left {
+            position: relative;
+            
+            &__icon-box-one {
+                position: absolute;
+                top: 120px;
+                left: -20px;
+                width: 151px;
+                height: auto;
+                /* UI Properties */
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 3px 12px #2F30581F;
+                border-radius: 10px;
+                opacity: 1;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding: 20px 10px;  
+            }
+
+            &__icon-box-two {
+                position: absolute;
+                bottom: 100px;
+                right: 55px;
+                width: 151px;
+                height: auto;
+                /* UI Properties */
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 3px 12px #2F30581F;
+                border-radius: 10px;
+                opacity: 1;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding: 20px 10px;  
+            }
+        }
+
+        &__text {
+            &--heading {
+                text-align: left;
+                font: normal normal 900 48px/54px Poppins;
+                letter-spacing: 0.96px;
+                color: #2F3058;
+
+                .header-span {
+                    color: #6366F1
+                }
+            }
+
+            &--text {
+                text-align: left;
+                font: normal normal normal 19px/31px Hind;
+                letter-spacing: 0.42px;
+                color: #535353;
+                opacity: 1;
+                margin: 50px 0 70px;
+            }
+
+            &__boxes {
+
+                &__single-box {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 30px;
+
+
+                    .text-box {
+                        margin-left: 30px;
+                        background-color: rgb(251, 249, 252);
+                        border-radius: 10px;
+                        width: 634px;
+                        height: 77px;
+                        padding: 15px 30px;
+                        
+                        .text-box-text {
+                            margin-bottom: 0;
+                            font-size: 1.8em;
+                            letter-spacing: 0.4px;
+                            color: #2F3058;
+                            opacity: 0.85;
+                        }
+                    }
+
+                }
+
+                &__single-box:nth-child(odd) {
+
+                    .svg-box {
+                        width: 77px;
+                        height: 77px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #f4f4fe;
+                        border-radius: 10px;
+                        z-index: 15;
+                        
+                        svg {
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                &__single-box:nth-child(even) {
+                    .svg-box {
+                        width: 77px;
+                        height: 77px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #fbf6fc;
+                        border-radius: 10px;
+                        z-index: 15;
+                        
+                        svg {
+                            opacity: 1;
+                            // width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .text-box {
+                        margin-left: 30px;
+                        background-color: #f4f4fe;
+                        border-radius: 10px;
+                        width: 634px;
+                        height: 77px;
+                        padding: 15px 30px;
+                        
+                        .text-box-text {
+                            margin-bottom: 0;
+                            font-size: 1.8em;
+                            letter-spacing: 0.4px;
+                            color: #2F3058;
+                            opacity: 0.85;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
